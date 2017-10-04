@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scaleable=no">
+	<title>相册</title>
+</head>
+<body>
+	<div class="header">
+		<div class="select">编辑</div>
+		<div class="txt-title">相册</div>
+		<div class="delete">删除</div>
+	</div>
+	<div class="content">
+	</div>
+	<div class="footer">
+		<div class="add-photo">
+			<label for="upLoadIMG">添加图片</label>
+			<input type="file" name="upLoadIMG" id="upLoadIMG" multiple="multiple" onchange="addImg(this)" />
+		</div>
+		<div class="add-photo-folder">
+			<label for="upLoadFolder">待定功能</label>
+			<input type="filefolder" name="upLoadFolder" id="upLoadFolder" onclick="">
+		</div>
+	</div>
+	<div class="view-pic">
+		<div class="pic-frame">			
+		</div>
+	</div>
+</body>
+<link rel="stylesheet" type="text/css" href="css/PhotoAlbum.css">
+<script type="text/javascript" src="js/wzxAjax.js"></script>
+<script type="text/javascript" src='js/PhotoAlbum.js'></script>
+</html>
